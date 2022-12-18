@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "this project is for creating a dynamicaly updated page with content fetched from API.\r first of all the user asks for a Zipcode of the city and write his feeling right now,\r then this request will be sent to the API and returned with the answer,\r then taking this data to the server and sending it again to the browser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
